@@ -11,38 +11,38 @@ function Timer ()  {
    let timer;
 
    useEffect(() => {
-	   if (run === true) {
-		   timer = setInterval(() => {
-			setSeconds(seconds+1)
-		if(seconds === 59) {
-			setMinutes(minutes+1);
-			setSeconds(0);
-		}
-		if(minutes === 59) {
-			setHours(hours + 1);
-			setMinutes(0);
-		}
-		   }, 1000)
-	   return () => clearInterval(timer);
-	   }
+      if (run === true) {
+	  timer = setInterval(() => {
+	  setSeconds(seconds+1)
+      if(seconds === 59) {
+          setMinutes(minutes+1);
+	  setSeconds(0);
+      }
+      if(minutes === 59) {
+	  setHours(hours + 1);
+	  setMinutes(0);
+      }
+	  }, 1000)
+      return () => clearInterval(timer);
+      }
    });
 
    function start () {
-	   setRun(true);
-	   if(stop) {
-		   setSeconds(seconds + 1)
-	   }
+      setRun(true);
+      if(stop) {
+         setSeconds(seconds + 1)
+      }
    };
 
    function stop ()  {
-	   clearInterval(timer)
+      clearInterval(timer)
    };
 
    function reset () {
       setSeconds(0);
-	   setMinutes(0);
-	   setHours(0);
-	   setRun(false);
+      setMinutes(0);
+      setHours(0);
+      setRun(false);
    };
 
    return (
