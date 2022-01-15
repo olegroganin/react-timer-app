@@ -1,83 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
-	padding: 0;
-	margin: 0;
-	border: 0;
+   padding: 0;
+   margin: 0;
+   border: 0;
 }
 
 *,
 *:before,
 *:after {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 :focus,
 :active {
-	outline: none;
+   outline: none;
 }
 
 a:focus,
 a:active {
-	outline: none;
+   outline: none;
 }
 
 a,
 a:visited {
-	text-decoration: none;
+   text-decoration: none;
 }
 
 a:hover {
-	text-decoration: none;
+   text-decoration: none;
 }
 
 nav,
 footer,
 header,
 aside {
-	display: block;
+   display: block;
 }
 
 html,
 body {
-	height: 100%;
-	width: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	font-family: "Nunito", sans-serif;
-	scroll-behavior: smooth;
+   height: 100%;
+   width: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   font-family: "Nunito", sans-serif;
+   scroll-behavior: smooth;
 }
 
 input,
 button,
 textarea {
-	font-family: inherit;
+   font-family: inherit;
 }
 
 input::-ms-clear {
-	display: none;
+   display: none;
 }
 
 button {
-	cursor: pointer;
+   cursor: pointer;
 }
 
 button::-moz-focus-inner {
-	padding: 0;
-	border: 0;
+   padding: 0;
+   border: 0;
 }
 
 ul li {
-	list-style: none;
+   list-style: none;
 }
 
 img {
-	vertical-align: top;
+   vertical-align: top;
 }
 
 h1,
@@ -86,64 +86,64 @@ h3,
 h4,
 h5,
 h6 {
-	font-size: inherit;
-	font-weight: 400;
+   font-size: inherit;
+   font-weight: 400;
 }
 
 /*-----------------------------*/
 
 .wrapper {
     background-color: black;
-	 height: 100vh;
+    height: 100vh;
 }
 
 .container{
-	 padding: 190px 15px 0;
-	 width: 100%;
-	 max-width: 1440px;
-	 margin: 0 auto;
+    padding: 190px 15px 0;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .timer{
-	 color: white;
-	 font-size: 65px;
+    color: white;
+    font-size: 65px;
     display: block;
     text-align: center;
-	 padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .timer h1 {
-	 padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .timer h2 {
-	 padding-bottom: 35px;
+    padding-bottom: 35px;
 }
 
 .timer-buttons{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .btn {
-	 width: 150px;
-	 padding: 10px 0;
-	 margin-right: 10px;
-	 border-radius: 15px;
-	 font-size: 23px;
-	 font-weight: bold;
+    width: 150px;
+    padding: 10px 0;
+    margin-right: 10px;
+    border-radius: 15px;
+    font-size: 23px;
+    font-weight: bold;
 }
 
 .btn:last-child{
-	 margin-right:0;
+    margin-right:0;
 }
 
 /*-----------------------------*/
 
  
  @media (max-width: 767px) {
-	.timer {
-	  font-size: 55px;
-	}
+   .timer {
+      font-size: 55px;
+    }
  }
  
